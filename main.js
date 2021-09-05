@@ -57,5 +57,6 @@
     reset.addEventListener('mousedown', () => {
         setButtonStartInitial()
         timer.textContent = '00:00.0'
+        elapsedTime = 0;
     });
   }
